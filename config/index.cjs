@@ -19,19 +19,21 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '瑞云小可爱',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'obPbH5vfIe1hiKBpKAYxf2bUAKhY',
+      id: 'obPbH5vwytl_qCN3w-t1DWm5Lkz0',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'NWnqltn9nEFH34Qg7b5R91pbcUBANs0pvFUdfxxkXKs',
+      useTemplateId: 'A0WeymwxEpLgZhVtwn8Zn5dgnAxiI6lJpf42hbIIAHU',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '08-03',
+      horoscopeDateType: '今日',
+      openUrl: 'https://weibo.com/newlogin?tabtype=search&openLoginLayer=0&url=https%3A%2F%2Fweibo.com%2F',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '小可爱', year: '1996', date: '06-19',
+          type: '*农历生日', name: '小可爱', year: '1996', date: '06-19',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '小可爱', year: '1996', date: '08-03',
+          type: '公历生日', name: '小可爱', year: '1996', date: '08-03',
         },
         {
           type: '节日', name: '相识纪念日', year: '2022', date: '09-21',
