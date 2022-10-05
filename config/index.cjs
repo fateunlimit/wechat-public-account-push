@@ -19,7 +19,38 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '瑞云小可爱',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'obPbH5vwytl_qCN3w-t1DWm5Lkz0,obPbH5oqNplCzuWUi6yt-mmxQidE',
+      id: 'obPbH5vwytl_qCN3w-t1DWm5Lkz0',
+      // 使用微信测试号：你想对他发送的模板消息的模板ID
+      useTemplateId: 'oBWFlJYLVQj95YyM_6YKrZIU1r4rz7A0yQuEPiTWRMM',
+      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
+      horoscopeDate: '08-03',
+      horoscopeDateType: '今日',
+      LITERARY_PREFERENCE: '',
+      openUrl: 'https://s.weibo.com/top/summary',
+      festivals: [
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {
+          type: '*生日', name: '小可爱农历', year: '1996', date: '06-19',
+        },
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {
+          type: '生日', name: '小可爱公历', year: '1996', date: '08-03',
+        },
+        {
+          type: '节日', name: '第一次见面纪念日', year: '2022', date: '09-21',
+        },
+      ],
+      // 我们在一起已经有xxxx天了的配置
+      customizedDateList: [
+        // 在一起的日子
+        { keyword: 'love_day', date: '2022-10-01' },
+        // 结婚纪念日
+       // { keyword: 'marry_day', date: '2022-09-09' },
+      ],
+        // 想要发送的人的名字
+      name: '瑞云小可爱',
+      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: 'obPbH5oqNplCzuWUi6yt-mmxQidE',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'oBWFlJYLVQj95YyM_6YKrZIU1r4rz7A0yQuEPiTWRMM',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
