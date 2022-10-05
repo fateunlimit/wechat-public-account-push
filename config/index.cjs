@@ -53,7 +53,7 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '瑞云小可爱',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'obPbH5oqNplCzuWUi6yt-mmxQidE',
+      id: 'obPbH5vfIe1hiKBpKAYxf2bUAKhY',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'oBWFlJYLVQj95YyM_6YKrZIU1r4rz7A0yQuEPiTWRMM',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
