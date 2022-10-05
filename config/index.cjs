@@ -19,14 +19,14 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '瑞云小可爱',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'obPbH5vwytl_qCN3w-t1DWm5Lkz0',
+      id: 'obPbH5vwytl_qCN3w-t1DWm5Lkz0,obPbH5oqNplCzuWUi6yt-mmxQidE',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'IZi-J4cOxI2bdeFty4Wl8-LSC_90IOCLHgd7D3adels',
+      useTemplateId: 'oBWFlJYLVQj95YyM_6YKrZIU1r4rz7A0yQuEPiTWRMM',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '08-03',
       horoscopeDateType: '今日',
       LITERARY_PREFERENCE: '',
-      openUrl: 'https://weibo.com/newlogin?tabtype=search&openLoginLayer=0&url=https%3A%2F%2Fweibo.com%2F',
+      openUrl: 'https://s.weibo.com/top/summary',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
@@ -52,7 +52,7 @@ const USER_CONFIG = {
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: 'IZi-J4cOxI2bdeFty4Wl8-LSC_90IOCLHgd7D3adels',
+  CALLBACK_TEMPLATE_ID: 'oBWFlJYLVQj95YyM_6YKrZIU1r4rz7A0yQuEPiTWRMM',
 
   CALLBACK_USERS: [
     {
