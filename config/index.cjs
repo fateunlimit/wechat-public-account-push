@@ -21,22 +21,23 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'obPbH5vwytl_qCN3w-t1DWm5Lkz0',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'A0WeymwxEpLgZhVtwn8Zn5dgnAxiI6lJpf42hbIIAHU',
+      useTemplateId: 'IZi-J4cOxI2bdeFty4Wl8-LSC_90IOCLHgd7D3adels',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '08-03',
       horoscopeDateType: '今日',
+      LITERARY_PREFERENCE: '',
       openUrl: 'https://weibo.com/newlogin?tabtype=search&openLoginLayer=0&url=https%3A%2F%2Fweibo.com%2F',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*农历生日', name: '小可爱', year: '1996', date: '06-19',
+          type: '*生日', name: '小可爱农历', year: '1996', date: '06-19',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '公历生日', name: '小可爱', year: '1996', date: '08-03',
+          type: '生日', name: '小可爱公历', year: '1996', date: '08-03',
         },
         {
-          type: '节日', name: '相识纪念日', year: '2022', date: '09-21',
+          type: '节日', name: '第一次见面纪念日', year: '2022', date: '09-21',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
@@ -51,7 +52,7 @@ const USER_CONFIG = {
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: 'NWnqltn9nEFH34Qg7b5R91pbcUBANs0pvFUdfxxkXKs',
+  CALLBACK_TEMPLATE_ID: 'IZi-J4cOxI2bdeFty4Wl8-LSC_90IOCLHgd7D3adels',
 
   CALLBACK_USERS: [
     {
